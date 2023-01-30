@@ -308,4 +308,19 @@ body{
         background: url(../img/icon-close.svg);
         background-repeat: no-repeat;
     }
+
+    .hero-container{
+        justify-content: center;
+        align-items: flex-start;
+        padding-block: 1.5em;
+        text-align: center;
+    }
+
+    .hero-heading h1{
+        font-size: 1.7em;
+    }
+
+    .hero-heading h3{
+        font-size: 0.85em;
+    }
 }
