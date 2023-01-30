@@ -276,6 +276,11 @@ body{
 }
 
 @media (max-width: 35em){
+    .logo{
+        width: 45px;
+        margin: 1.5rem;
+    }
+
     .primary-navigation{
         --gap: 2em;
         position: fixed;
