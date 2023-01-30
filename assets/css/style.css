@@ -226,9 +226,35 @@ body{
     width: 60px;
 }
 
+/* ---------------------------------------- */
 
-/* ------------------------ */
+/*------------ Product section ------------ */
 
+.product-container{
+    width: 100%;
+    height: 70vh;
+    margin-block-start: 3rem;
+    overflow: hidden;
+}
+
+.low-op-bg-image{
+    background-image: url(../img/product-bg.jpg);
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+    isolation: isolate;
+}
+
+.low-op-bg-image::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: #1f6333;
+    opacity: 0.5;
+}
+
+/* ---------------------------------------- */
 /* About Page */
 
 .about-page .container{
