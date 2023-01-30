@@ -322,9 +322,8 @@ body{
 
     .hero-container{
         justify-content: center;
-        align-items: flex-start;
-        padding-block: 1.5em;
-        text-align: center;
+        align-items: center;
+        margin-block: -1.8em;
     }
 
     .hero-heading h1{
