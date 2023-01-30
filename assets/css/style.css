@@ -304,6 +304,12 @@ body{
         right: 2rem;
     }
 
+    .sticky .primary-header .nav-toggle{
+        background: url(../img/icon-hamburger-dark.svg);
+        background-repeat: no-repeat;
+    }
+
+    .sticky .primary-header .nav-toggle[aria-expanded="true"],
     .nav-toggle[aria-expanded="true"]{
         background: url(../img/icon-close.svg);
         background-repeat: no-repeat;
@@ -322,5 +328,9 @@ body{
 
     .hero-heading h3{
         font-size: 0.85em;
+    }
+
+    .about-para{
+        font-size: 1em;
     }
 }
