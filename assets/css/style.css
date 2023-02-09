@@ -205,7 +205,7 @@ body{
 }
 
 #about-us .card-wrap{
-    width: 350px;
+    width: 320px;
     height: 150px;
     margin-block: 0.5em;
     display: flex;
@@ -310,6 +310,65 @@ body{
 
 /* -------------------------------- */
 
+/*         Footer                   */
+
+footer{
+    background: #1f6333;
+    color: #e3e3e3;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer a{
+    color: #e3e3e3;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #fff;
+}
+
+footer .container{
+    padding: 3em 0;
+}
+
+footer .container h3{
+    text-transform: uppercase;
+    margin-block-end: 1.5em;
+}
+
+footer .flex{
+    justify-content: space-around;
+}
+
+footer .company{
+    width: 25%;
+    text-align: justify;
+    text-justify: distribute;
+}
+
+footer .important-links li{
+    line-height: 1.8;
+}
+
+footer .contact-details-footer li{
+    line-height: 2.5;
+}
+
+footer .contact-details-footer li i{
+    font-size: 1.1em;
+    margin-inline-end: 1em;
+}
+
+footer .credits-container{
+    padding: 0 0 1.5em 0;
+    text-align: center;
+}
+
+/* -------------------------------- */
+
 /* About Page */
 
 .about-page .container{
@@ -356,6 +415,7 @@ body{
     #about-us .flex{
         flex-direction: column;
     }
+
 }
 
 @media (min-width: 35em){
@@ -431,5 +491,13 @@ body{
 
     .tagline-container{
         font-size: 0.5em;
+    }
+
+    footer .flex{
+        flex-direction: column;
+    }
+
+    footer .company{
+        width: 100%;
     }
 }
