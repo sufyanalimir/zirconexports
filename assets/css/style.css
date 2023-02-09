@@ -367,6 +367,10 @@ footer .credits-container{
     text-align: center;
 }
 
+.credits-container hr{
+    border-color: #e3e3e3;
+}
+
 /* -------------------------------- */
 
 /* About Page */
