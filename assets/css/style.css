@@ -344,7 +344,10 @@ footer .flex{
 }
 
 footer .company{
-    width: 25%;
+    width: 27%;
+}
+
+footer .company p{
     text-align: justify;
     text-justify: distribute;
 }
@@ -354,7 +357,7 @@ footer .important-links li{
 }
 
 footer .contact-details-footer li{
-    line-height: 2.5;
+    line-height: 2.2;
 }
 
 footer .contact-details-footer li i{
