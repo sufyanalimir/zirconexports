@@ -146,6 +146,10 @@ body{
     #about-page-styles .primary-navigation{
         background: hsl(0, 0%, 35%);
     }
+    
+    #product-page-styles .primary-navigation{
+        background: hsl(0, 0%, 35%);
+    }
 }
 
 /* About section home page */
@@ -511,6 +515,40 @@ footer .credits-container{
 #about-page-footer{
     margin-block-start: 3em;
 }
+/* ------------------------------------- */
+
+
+/*       Product Page Styling            */
+
+#product-page-styles .hero{
+    background: unset;
+    height: unset;
+    background-position: unset;
+    background-size: unset;
+    background-repeat: unset;
+    background-attachment: unset;
+}
+
+
+#product-page-styles::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: #1f6333;
+    opacity: 0.75;
+}
+
+.product-pg-container{
+    color: #e3e3e3;
+}
+
+.product-pg-container h1{
+    text-align: center;
+    margin-block: 1em;
+    text-transform: uppercase;
+}
+
 /* ------------------------------------- */
 
 /* ------------- Media Queries --------- */
