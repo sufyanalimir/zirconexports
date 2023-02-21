@@ -448,7 +448,7 @@ footer .credits-container{
     /* background-repeat: no-repeat; */
     border-radius: 50%;
     box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px #000;
-    animation: spin 150s linear infinite;
+    animation: spin 250s linear infinite;
 
 }
 
@@ -466,10 +466,28 @@ footer .credits-container{
 
 .company-history h1{
     text-transform: uppercase;
+    font-size: 1.8em;
+    margin-block-end: 0.5em;
 }
 
 .company-history h1 span{
     color: #1f6333;
+}
+
+.company-history h3 span{
+    color: #1f6333;
+}
+
+.company-history h3{
+    text-transform: uppercase;
+}
+
+.company-history h4{
+    text-transform: uppercase;
+    margin-block-end: 0.5em;
+    letter-spacing: 0.3em;
+    color: #3333;
+    font-size: 1.2em;
 }
 
 .company-history .mission{
