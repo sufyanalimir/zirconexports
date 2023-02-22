@@ -691,6 +691,7 @@ footer .credits-container{
 
     .about-para{
         font-size: 1em;
+        margin: 0;
     }
 
     .tagline-container{
@@ -703,5 +704,9 @@ footer .credits-container{
 
     footer .company{
         width: 100%;
+    }
+
+    .product-pg-container .pg-detail{
+        padding-inline: 0;
     }
 }
