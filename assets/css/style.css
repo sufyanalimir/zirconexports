@@ -150,6 +150,10 @@ body{
     #product-page-styles .primary-navigation{
         background: hsl(0, 0%, 35%);
     }
+    
+    #contact-page-styles .primary-navigation{
+        background: hsl(0, 0%, 35%);
+    }
 }
 
 /* About section home page */
