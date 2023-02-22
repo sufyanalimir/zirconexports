@@ -320,19 +320,21 @@ body{
 .overlay {
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 100%;
     left: 0;
     right: 0;
-    height: 250px;
-    width: 300px;
-    opacity: 0;
+    height: 0;
+    width: 100%;
+    /* opacity: 0.5; */
+    overflow: hidden;
     transition: .5s ease;
     border-radius: 5%;
     background-color: #1f6333;
 }
 
 .card:hover .overlay {
-    opacity: 1;
+    bottom: 0;
+    height: 83%;
 }
 
 .overlay-btn{
@@ -554,6 +556,10 @@ footer .credits-container{
     color: #1f6333;
 }
 
+.product-pg-container h3{
+    margin-block-end: 0.5em;
+}
+
 .pg-card-container{
     display: flex;
     justify-content: space-between;
@@ -563,6 +569,7 @@ footer .credits-container{
 
 .pg-mango .pg-card-container{
     flex-direction: row-reverse;
+    margin-block-end: 1em;
 }
 
 .pg-card-container img{
@@ -577,6 +584,21 @@ footer .credits-container{
     text-align: justify;
     text-justify: distribute-all-lines;
 }
+
+.pg-mango .extras{
+    margin-block-end: 1em;
+    padding-inline: 1em;
+}
+
+.pg-mango ul li{
+    list-style-type:circle;
+    line-height: 2;
+}
+
+.pg-mango .variety-list{
+    justify-content: space-around;
+}
+
 /* ------------------------------------- */
 
 /* ------------- Media Queries --------- */
@@ -617,6 +639,11 @@ footer .credits-container{
     }
 
     .pg-mango .pg-card-container{
+        flex-direction: column;
+    }
+
+    .pg-mango .variety-list{
+        /* justify-content: center; */
         flex-direction: column;
     }
 
