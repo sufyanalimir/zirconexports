@@ -950,4 +950,9 @@ footer#contact-pg hr {
   .contact-pg-container .form {
     margin: auto;
   }
+
+  .primary-navigation .dropdown:hover .dropdown-content {
+    position: relative;
+    background: transparent;
+  }
 }
