@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Zircon Exports | We Trade The World!</title>
-
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/img/zircon_exports_logo.svg"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -84,13 +88,15 @@
               <h3>Our Social Media Handles</h3>
               <ul class="flex">
                 <li>
-                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="#">
+                    <i class="fa fa-instagram" style="padding: 0.12em"></i>
+                  </a>
                 </li>
                 <li>
                   <a
                     href="https://www.facebook.com/people/Zirconexports/100090318919799/"
                     target="_blank"
-                    ><i class="fa fa-facebook"></i
+                    ><i class="fa fa-facebook" style="padding: 0.13em"></i
                   ></a>
                 </li>
                 <li>
@@ -100,7 +106,7 @@
             </div>
           </div>
           <div class="form">
-            <form>
+            <form action="./message.php" method="post">
               <h3>Send Message</h3>
               <div class="form-group">
                 <input
@@ -108,6 +114,7 @@
                   name="name"
                   id="name"
                   placeholder="Enter your name.."
+                  autocomplete="off"
                   required
                 />
               </div>
@@ -117,6 +124,7 @@
                   name="email"
                   id="email"
                   placeholder="Enter your email.."
+                  autocomplete="off"
                   required
                 />
               </div>
@@ -141,12 +149,12 @@
       <div class="container credits-container">
         <hr />
         <p>
-          &#169;2023&nbsp;<a href="#">Zircon Exports.</a> All Rights Reserved.
+          &#169;2023&nbsp;<a href="./index.html">Zircon Exports.</a> All Rights
+          Reserved.
         </p>
       </div>
     </footer>
 
-    <script src="./assets/js/contact.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>

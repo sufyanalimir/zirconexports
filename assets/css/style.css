@@ -454,11 +454,20 @@ footer .important-links li {
 
 footer .contact-details-footer li {
   line-height: 2.2;
+  display: flex;
 }
 
 footer .contact-details-footer li i {
   font-size: 1.2em;
   margin-inline-end: 1em;
+}
+
+footer .contact-details-footer li .i {
+  /* background: black; */
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .credits-container {
@@ -756,6 +765,7 @@ footer .credits-container {
 .social-media-container i {
   font-size: 1.5em;
   color: #e3e3e4;
+  /* padding: 0.12em; */
 }
 
 .social-media-container li:hover {
