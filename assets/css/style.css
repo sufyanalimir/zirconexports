@@ -678,6 +678,9 @@ footer .credits-container {
 .contact-pg-container .flex {
   justify-content: space-around;
   margin-block: 2em;
+}
+
+.contact-pg-container .details-container {
   padding: 1em;
 }
 
