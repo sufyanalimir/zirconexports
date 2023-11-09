@@ -316,7 +316,7 @@ body {
   inset: 0;
   z-index: -1;
   background: #1f6333;
-  opacity: 0.65;
+  opacity: 0.5;
 }
 
 /* ---------------------------------------- */
@@ -624,7 +624,12 @@ footer .credits-container {
 }
 
 .product-pg-container h3 {
-  margin-block-end: 0.5em;
+  margin-block-end: 0.55em;
+}
+
+.product-pg-container p {
+  text-justify: distribute;
+  text-align: justify;
 }
 
 .pg-card-container {
@@ -835,6 +840,10 @@ footer#contact-pg hr {
 
   .pg-card-container {
     flex-direction: column;
+  }
+
+  .pg-card-container.totapuri {
+    flex-direction: column-reverse;
   }
 
   .pg-mango .pg-card-container {
