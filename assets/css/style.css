@@ -645,6 +645,7 @@ footer .credits-container {
 }
 
 .pg-card-container img {
+  height: 205px;
   width: 300px;
   margin-inline: 1em;
   border-radius: 5%;
